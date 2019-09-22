@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon src"
+    "start": "node src",
+    "dev": "nodemon src",
+    "build": "my-framework build --output public"
   },
   "keywords": [],
   "author": "EJC17",
